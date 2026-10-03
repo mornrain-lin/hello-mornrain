@@ -118,23 +118,23 @@ add_filter(
 ## File structure
 
 ```text
-hello-mornrain/
-|-- .github/
-|   `-- workflows/
-|       `-- build.yml
-|-- includes/
-|   |-- class-hello-mornrain.php
-|   `-- shortcode-hello.php
-|-- tests/
-|   |-- ScaffoldTest.php
-|   `-- bootstrap.php
-|-- hello-mornrain.php
-|-- composer.json
-|-- LICENSE
-|-- phpunit.xml.dist
-|-- README.md
-|-- readme.txt
-`-- uninstall.php
+hello-mornrain/                    # Hello MornRain 插件根目录：最小可用示例插件
+|-- .github/                       # GitHub 仓库配置目录
+|   `-- workflows/                 # GitHub Actions 工作流目录
+|       `-- build.yml              # CI 工作流：在 PHP 8.1–8.3 上 lint、跑 PHPUnit 并打包 ZIP 构件
+|-- includes/                      # 插件 PHP 源码目录
+|   |-- class-hello-mornrain.php   # 插件主类：引导加载与 [hello] 短码注册
+|   `-- shortcode-hello.php        # [hello] 短码回调：规范化 name/class 属性并转义输出问候
+|-- tests/                         # PHPUnit 测试目录
+|   |-- ScaffoldTest.php           # 脚手架冒烟测试：断言 README、LICENSE、composer.json 存在
+|   `-- bootstrap.php              # PHPUnit 引导文件：存在时才加载 Composer 自动加载器
+|-- hello-mornrain.php             # 插件入口：声明插件头、定义常量并加载 includes
+|-- composer.json                  # Composer 元数据与 lint/test 脚本
+|-- LICENSE                        # GPL-2.0-or-later 许可证全文
+|-- phpunit.xml.dist               # PHPUnit 配置，扫描 tests 目录
+|-- README.md                      # 插件说明文档
+|-- readme.txt                     # WordPress 插件目录要求的 readme.txt
+`-- uninstall.php                  # 卸载脚本：插件无持久数据，仅作占位说明
 ```
 
 ---
@@ -196,4 +196,3 @@ identically.
 
 Released under the **GNU General Public License v2 or later**. See
 [LICENSE](LICENSE) for the full text.
-*（内容由AI生成，仅供参考）*
