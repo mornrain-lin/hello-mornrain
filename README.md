@@ -1,14 +1,3 @@
----
-AIGC:
-    Label: "1"
-    ContentProducer: 001191440300708461136T1XGW3
-    ProduceID: cf93d2ba4252e3fc820ac383cb09c649_7ae66b8ebe7a11f197eb525400393706
-    ReservedCode1: cFe5r0MG2dHCKE5YOXyDgACKezfa8U5nuZhrNb+dhp3V+xEYBU7vresz15BUw9o9K4kJ9snYrAVmFhMWDx0f6BzHooAZaQ/RwcD6tibBhMFLaoO9k/9D7dv4ZchQFa+zH/PLIloMy5CKpbhHxkVWkJ1Fb7WEb/FGkGjbugjtm8Gh+REW7kSaIz1j8CI=
-    ContentPropagator: 001191440300708461136T1XGW3
-    PropagateID: cf93d2ba4252e3fc820ac383cb09c649_7ae66b8ebe7a11f197eb525400393706
-    ReservedCode2: cFe5r0MG2dHCKE5YOXyDgACKezfa8U5nuZhrNb+dhp3V+xEYBU7vresz15BUw9o9K4kJ9snYrAVmFhMWDx0f6BzHooAZaQ/RwcD6tibBhMFLaoO9k/9D7dv4ZchQFa+zH/PLIloMy5CKpbhHxkVWkJ1Fb7WEb/FGkGjbugjtm8Gh+REW7kSaIz1j8CI=
----
-
 # Hello MornRain
 
 > The smallest useful WordPress plugin: one shortcode, no database writes, no surprises.
